@@ -1,0 +1,9 @@
+{
+	"name": "projectdatafactorypractice-1",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a5f02cdf-fc59-4829-b8b8-49ed9264c0bf",
+		"tenantId": "2fddb77a-a225-44cf-9ffc-5a6326e2a533"
+	}
+}
