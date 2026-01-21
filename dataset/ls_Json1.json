@@ -1,0 +1,32 @@
+{
+	"name": "ls_Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_storageadls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "allfiles.json",
+				"fileSystem": "data"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"baseurl": {
+					"type": "string"
+				},
+				"relativeurl": {
+					"type": "string"
+				},
+				"filename": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
