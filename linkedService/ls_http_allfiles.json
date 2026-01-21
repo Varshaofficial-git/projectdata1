@@ -1,0 +1,17 @@
+{
+	"name": "ls_http_allfiles",
+	"properties": {
+		"parameters": {
+			"baseurl": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "@{linkedService().baseurl}",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
